@@ -14798,7 +14798,8 @@ get_legend <- function(plot) {
   plot <- as_gtable(plot)
   grob_names <- plot$layout$name
   grobs <- plot$grobs
-  grobIndex <- which(grepl("guide-box", grob_names))
+  # grobIndex <- which(grepl("guide-box", grob_names))
+  grobIndex <- which(grepl("guide-box-bottom", grob_names))
   grobIndex <- grobIndex[1]
   matched_grobs <- grobs[[grobIndex]]
   return(matched_grobs)
