@@ -38,7 +38,7 @@ An adaptation of the [SCP package](https://github.com/zhanghao-njmu/SCP) with fu
 install.packages("devtools")
 
 # Install SCP
-devtools::install_github("mianaz/SCP-SeuratV5")
+devtools::install_github("jinworks/SCP-SeuratV5")
 ```
 
 ### Python Environment Setup
